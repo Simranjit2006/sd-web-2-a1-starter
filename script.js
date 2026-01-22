@@ -51,7 +51,7 @@ function renderCharacterList(array, targetId) {
     list.appendChild(li);
   });
 }
- 
+
 renderCharacterList(characters, "function-list");
 // 4. Write a function that accepts two parameters: an array of character objects and a numeric age threshold. Inside the function, filter the array to include only characters whose age is below the threshold value. For each filtered character, create an <li> element with their name and append it to the target list. Call this function and render the results in the unordered list with id "age-filter-list".
 function renderCharactersByAge(array, age, targetId) {
